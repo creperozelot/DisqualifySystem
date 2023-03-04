@@ -1,0 +1,53 @@
+#_____  _                       _ _  __          _____           _
+#|  __ \(_)                     | (_)/ _|        / ____|         | |
+#| |  | |_ ___  __ _ _   _  __ _| |_| |_ _   _  | (___  _   _ ___| |_ ___ _ __ ___
+#| |  | | / __|/ _` | | | |/ _` | | |  _| | | |  \___ \| | | / __| __/ _ \ '_ ` _ \
+#| |__| | \__ \ (_| | |_| | (_| | | | | | |_| |  ____) | |_| \__ \ ||  __/ | | | | |
+#|_____/|_|___/\__, |\__,_|\__,_|_|_|_|  \__, | |_____/ \__, |___/\__\___|_| |_| |_|
+#| |                     __/ |          __/ |
+#|_|                    |___/          |___/
+
+#Sets the Prefix from this Plugin
+prefix: '§8[§cDisqualifier System§8] » §f'
+
+#Days before a Player gets banned
+days: 3
+
+#Delete Player from Database after Disqualify
+delete: false
+
+#Validate Player on Join
+onjoin: true
+
+#Automate Disqualify after some Time (will scheduled every Day on specific time))
+autodisqualify: true
+
+#Set the auto Scan Time
+#HH-mm-ss
+endtime: '20-30-05'
+
+# Kick Messages
+kickmessage:
+  title: '§c§lDisqualified:'
+  message: '§cYou are Disqualified {name}'
+
+#Messages
+messages:
+  mysqlerr: '§cThere was an error with the MySQL Database: {error}'
+  invalidcommand: '§cPlease enter /dissys help'
+  playernotexist: '§cThe Player {player} doesnt exist!'
+  playeralreadyexist: '§cThe Player {player} already exist!'
+  setdays: '§aSuccess! The Player {player} has now {days} Days in the Database!'
+  addplayer_success: '§aSuccess! The Player {player} was added to the Database'
+  deleteplayer: '§aSuccess! §4 The Player {player} has been successfully deleted!'
+  setplaystate_success: '§aSuccess! The Player {player} has now the Playing State {state} in the Database!'
+  scan_success: '§aSuccess! Scan manually performed!'
+  scan_performed_broadcast: '§aScan Completed: All Players has scanned for Offline Days and Disqualified!'
+
+#Database
+database:
+  host: 'localhost'
+  port: '3306'
+  user: 'user'
+  passwd: 'passwd'
+  db: 'database'

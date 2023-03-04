@@ -1,0 +1,11 @@
+name: Disqualify_system
+version: '${project.version}'
+main: creperozelot.disqualify_system.main
+api-version: 1.12
+authors: [ creperozelot ]
+description: Plugin that bans player after amount of Days
+website: https://the-flames.de
+commands:
+  ds:
+    permission: ds.admin.use
+    description: Main Command for Disqualify System.
