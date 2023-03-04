@@ -5,10 +5,10 @@ Nice to see you!
 
 ## Acknowledgements
 
-- [How it Works](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Commands and Permissions](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- - [Installation](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Configuration](https://github.com/matiassingers/awesome-readme)
+- [How it Works](https://github.com/creperozelot/DisqualifySystem#how-it-works)
+- [Commands and Permissions](https://github.com/creperozelot/DisqualifySystem#commands-and-permissions)
+ - [Installation](https://github.com/creperozelot/DisqualifySystem#installation)
+ - [Configuration](https://github.com/creperozelot/DisqualifySystem#configuration)
  
 
 
