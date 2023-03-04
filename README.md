@@ -8,7 +8,7 @@ Nice to see you!
 - [How it Works](https://github.com/creperozelot/DisqualifySystem#how-it-works)
 - [Commands and Permissions](https://github.com/creperozelot/DisqualifySystem#commands-and-permissions)
  - [Installation](https://github.com/creperozelot/DisqualifySystem#installation)
- - [Configuration](https://github.com/creperozelot/DisqualifySystem#configuration)
+ - [Configuration](https://github.com/creperozelot/DisqualifySystem#configration)
  
 
 
