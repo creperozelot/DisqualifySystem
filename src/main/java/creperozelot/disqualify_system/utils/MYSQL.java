@@ -181,6 +181,15 @@ public class MYSQL {
         }
     }
 
+    public static void setDisqualified(String PLAYERNAME, boolean state) throws SQLException {
+        Statement stmt = con.createStatement();
+        if (!state) {
+            stmt.execute("UPDATE DATA SET DISQUALIFIED='" + state + "' WHERE PLAYERNAME='" + PLAYERNAME + "'");
+        } else {
+            stmt.execute("UPDATE DATA SET DISQUALIFIED='" + state + "' WHERE PLAYERNAME='" + PLAYERNAME + "'");
+        }
+    }
+
     public static void setPlayingState(Player player, boolean state) throws SQLException {
         Statement stmt = con.createStatement();
         if (!state) {

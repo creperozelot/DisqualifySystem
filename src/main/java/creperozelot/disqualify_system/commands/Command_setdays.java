@@ -4,14 +4,10 @@ import creperozelot.disqualify_system.main;
 import creperozelot.disqualify_system.utils.MYSQL;
 import creperozelot.disqualify_system.utils.StaticCache;
 import creperozelot.disqualify_system.utils.utils;
-import org.bukkit.Bukkit;
 import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
-import org.geysermc.floodgate.api.FloodgateApi;
 
 import java.sql.SQLException;
-import java.util.Objects;
 
 public class Command_setdays {
     public static boolean onCommand(CommandSender sender, Command command, String label, String[] args) {

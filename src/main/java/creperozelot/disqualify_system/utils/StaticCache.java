@@ -17,5 +17,7 @@ public class StaticCache {
     public static String addplayer_success = main.getInstance().getConfig().getString("messages.addplayer_success");
     public static String setplaystate_success = main.getInstance().getConfig().getString("messages.setplaystate_success");
     public static String scan_success = main.getInstance().getConfig().getString("messages.scan_success");
+    public static String setdisqualified_success = main.getInstance().getConfig().getString("messages.setdisqualified_success");
     public static String scan_performed_broadcast = main.getInstance().getConfig().getString("messages.scan_performed_broadcast");
+    public static String noperms = main.getInstance().getConfig().getString("messages.noperms");
 }

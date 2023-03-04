@@ -33,6 +33,7 @@ kickmessage:
 
 #Messages
 messages:
+  noperms: '§cYou dont have Permission to do that!'
   mysqlerr: '§cThere was an error with the MySQL Database: {error}'
   invalidcommand: '§cPlease enter /dissys help'
   playernotexist: '§cThe Player {player} doesnt exist!'
@@ -40,6 +41,7 @@ messages:
   setdays: '§aSuccess! The Player {player} has now {days} Days in the Database!'
   addplayer_success: '§aSuccess! The Player {player} was added to the Database'
   deleteplayer: '§aSuccess! §4 The Player {player} has been successfully deleted!'
+  setdisqualified_success: '§aSuccess! §aThe Player {player} has now the Value {state} in DISQUALIFIED!'
   setplaystate_success: '§aSuccess! The Player {player} has now the Playing State {state} in the Database!'
   scan_success: '§aSuccess! Scan manually performed!'
   scan_performed_broadcast: '§aScan Completed: All Players has scanned for Offline Days and Disqualified!'
